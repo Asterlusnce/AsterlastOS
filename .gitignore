@@ -1,0 +1,14 @@
+# Live Build generated files
+.build/
+binary/
+chroot/
+cache/
+
+# Build artifacts
+*.iso
+*.img
+*.log
+
+# Temporary files
+*~
+*.swp

@@ -1,0 +1,38 @@
+# Live system
+live-boot
+live-config
+live-config-systemd
+
+# Desktop environment
+kde-plasma-desktop
+sddm
+network-manager
+plasma-nm
+
+# Applications
+firefox-esr
+konsole
+dolphin
+kate
+libreoffice
+gparted
+
+# Installer
+calamares
+
+# Development tools
+build-essential
+gcc
+g++
+make
+git
+python3
+python3-venv
+
+# Utilities
+sudo
+curl
+wget
+htop
+nano
+vim
