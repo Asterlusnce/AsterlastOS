@@ -1,6 +1,4 @@
-<<<<<<< HEAD
 # AstralOS
-
 A Debian-based Linux distribution
 
 ## Project Information
@@ -13,4 +11,3 @@ A Debian-based Linux distribution
 # DistroTesting
 - I just tried to make my own distro hehe :v
 - Still on Alpha Version (v0.1.1)
->>>>>>> origin/main
