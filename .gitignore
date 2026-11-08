@@ -1,13 +1,21 @@
-# Live Build generated files
-.build/
-binary/
-chroot/
-cache/
+# Live-build generated metadata
+/*.contents
+/*.files
+/*.packages
+/binary.modified_timestamps
+/chroot.files
+/chroot.packages.*
+
+# Live-build directories
+/.build/
+/binary/
+/chroot/
+/cache/
 
 # Build artifacts
-*.iso
-*.img
-*.log
+/*.iso
+/*.img
+/*.log
 
 # Temporary files
 *~

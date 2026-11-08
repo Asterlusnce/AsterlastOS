@@ -1,0 +1,55 @@
+# Load images
+wallpaper = Image("background.png");
+logo = Image("logo.png");
+
+# Get screen dimensions
+screen_width = Window.GetWidth();
+screen_height = Window.GetHeight();
+
+# Wallpaper dimensions
+wallpaper_width = wallpaper.GetWidth();
+wallpaper_height = wallpaper.GetHeight();
+
+# Calculate cover scaling
+scale_x = screen_width / wallpaper_width;
+scale_y = screen_height / wallpaper_height;
+
+scale = scale_x;
+
+if (scale_y > scale_x) {
+    scale = scale_y;
+}
+
+# Resize wallpaper
+scaled_width = wallpaper_width * scale;
+scaled_height = wallpaper_height * scale;
+
+wallpaper = wallpaper.Scale(scaled_width, scaled_height);
+
+# Create wallpaper sprite
+wallpaper_sprite = Sprite(wallpaper);
+
+wallpaper_sprite.SetPosition(
+    (screen_width - scaled_width) / 2,
+    (screen_height - scaled_height) / 2,
+    -100
+);
+
+# Calculate logo size (15% of screen width)
+logo_width = logo.GetWidth();
+logo_height = logo.GetHeight();
+
+target_logo_width = screen_width * 0.15;
+target_logo_height = logo_height * target_logo_width / logo_width;
+
+# Resize logo
+logo = logo.Scale(target_logo_width, target_logo_height);
+
+# Create logo sprite
+logo_sprite = Sprite(logo);
+
+logo_sprite.SetPosition(
+    (screen_width - target_logo_width) / 2,
+    (screen_height - target_logo_height) / 2,
+    100
+);

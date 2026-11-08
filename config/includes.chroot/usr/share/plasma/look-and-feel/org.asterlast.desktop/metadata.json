@@ -1,0 +1,8 @@
+{
+    "KPackageStructure": "Plasma/LookAndFeel",
+    "KPlugin": {
+        "Id": "org.asterlast.desktop",
+        "Name": "AsterlastOS",
+        "Description": "AsterlastOS Desktop Theme"
+    }
+}

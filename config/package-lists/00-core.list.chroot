@@ -1,0 +1,10 @@
+sudo
+dbus
+network-manager
+iproute2
+iputils-ping
+curl
+wget
+htop
+nano
+vim

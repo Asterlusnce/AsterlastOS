@@ -25,7 +25,7 @@ LB_BOOTLOADER_BIOS="syslinux"
 LB_BOOTLOADER_EFI="grub-efi"
 
 # Set bootloaders
-LB_BOOTLOADERS=""
+LB_BOOTLOADERS="syslinux grub-efi"
 
 # Set checksums
 LB_CHECKSUMS="sha256"
@@ -71,16 +71,16 @@ LB_HDD_SIZE="auto"
 LB_HDD_PARTITION_START=""
 
 # Set iso author
-LB_ISO_APPLICATION="Debian Live"
+LB_ISO_APPLICATION="AstralOS Live"
 
 # Set iso preparer
-LB_ISO_PREPARER="live-build @LB_VERSION@; https://salsa.debian.org/live-team/live-build"
+LB_ISO_PREPARER="AstralOS Build System"
 
 # Set iso publisher
-LB_ISO_PUBLISHER="Debian Live project; https://wiki.debian.org/DebianLive; debian-live@lists.debian.org"
+LB_ISO_PUBLISHER="AstralOS Project"
 
 # Set iso volume (max 32 chars)
-LB_ISO_VOLUME="Debian trixie @ISOVOLUME_TS@"
+LB_ISO_VOLUME="ASTRALOS_0.1_AMD64"
 
 # Set jffs2 eraseblock size
 LB_JFFS2_ERASEBLOCK=""
@@ -95,7 +95,7 @@ LB_LOADLIN="false"
 LB_WIN32_LOADER="false"
 
 # Set net tarball
-LB_NET_TARBALL="true"
+LB_NET_TARBALL="false"
 
 # Set onie
 LB_ONIE="false"

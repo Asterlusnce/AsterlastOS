@@ -1,0 +1,20 @@
+#!/bin/sh
+set -e
+
+THEME_DIR="/usr/share/plymouth/themes/asterlast"
+
+echo "I: Configuring AsterlastOS Plymouth theme..."
+
+# Verify theme files
+test -f "${THEME_DIR}/asterlast.plymouth"
+test -f "${THEME_DIR}/asterlast.script"
+test -f "${THEME_DIR}/background.png"
+test -f "${THEME_DIR}/logo.png"
+
+# Set the default Plymouth theme
+plymouth-set-default-theme asterlast
+
+# Regenerate initramfs with the custom theme
+update-initramfs -u -k all
+
+echo "I: AsterlastOS Plymouth theme configured successfully."

@@ -1,0 +1,8 @@
+[Plymouth Theme]
+Name=AsterlastOS
+Description=AsterlastOS Boot Splash
+ModuleName=script
+
+[script]
+ImageDir=/usr/share/plymouth/themes/asterlast
+ScriptFile=/usr/share/plymouth/themes/asterlast/asterlast.script
