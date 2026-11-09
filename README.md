@@ -7,7 +7,7 @@ A Debian-based Linux distribution
 - Base: Debian 13 Trixie amd64
 - DE: KDE Plasma
 - Installer: Calameres
-=======
+
 # DistroTesting
 - I just tried to make my own distro hehe :v
 - Still on Alpha Version (v0.1.1)
