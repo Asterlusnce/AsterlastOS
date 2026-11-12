@@ -1,5 +1,3 @@
 # AstralOS installer
-calamares
-calamares-settings-debian
 grub-efi-amd64
 efibootmgr
