@@ -11,3 +11,6 @@ A Debian-based Linux distribution
 # DistroTesting
 - I just tried to make my own distro hehe :v
 - Still on Alpha Version 
+
+## Plan for v0.2 
+- Zram-generator (ram / 2)
