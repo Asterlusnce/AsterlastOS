@@ -80,7 +80,7 @@ LB_ISO_PREPARER="AstralOS Build System"
 LB_ISO_PUBLISHER="AstralOS Project"
 
 # Set iso volume (max 32 chars)
-LB_ISO_VOLUME="ASTRALOS_0.1_AMD64"
+LB_ISO_VOLUME="ASTRALOS_0.2_AMD64"
 
 # Set jffs2 eraseblock size
 LB_JFFS2_ERASEBLOCK=""

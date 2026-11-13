@@ -8,3 +8,4 @@ wget
 htop
 nano
 vim
+systemd-zram-generator
