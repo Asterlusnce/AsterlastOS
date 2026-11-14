@@ -13,5 +13,5 @@ apt update && apt install -y \
   mtools \
   dosfstools \ 
   git \
-  gh \ 
+  gh 
 ```
