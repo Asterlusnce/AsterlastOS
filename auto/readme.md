@@ -11,5 +11,7 @@ apt update && apt install -y \
   grub-pc-bin \
   grub-efi-amd64-bin \
   mtools \
-  dosfstools
+  dosfstools \ 
+  git \
+  gh \ 
 ```
