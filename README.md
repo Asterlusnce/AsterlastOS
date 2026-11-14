@@ -1,4 +1,4 @@
-# AstralOS
+# AsterlastOS
 A Debian-based Linux distribution
 
 ## Project Information
@@ -8,6 +8,6 @@ A Debian-based Linux distribution
 - DE: KDE Plasma (GNOME soon) 
 - Installer: Calameres
 
-# DistroTesting
+# Caution!
 - I just tried to make my own distro hehe :v
 - Still on Alpha Version 
