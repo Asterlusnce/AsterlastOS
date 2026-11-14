@@ -1,8 +1,8 @@
 NAME="AsterlastOS"
-PRETTY_NAME="AsterlastOS 0.1 (Trixie)"
+PRETTY_NAME="AsterlastOS 0.2 (Trixie)"
 ID=asterlast
 ID_LIKE=debian
-VERSION_ID="0.1.2"
-VERSION="0.1 (Trixie)"
-VERSION_CODENAME=trixie
+VERSION_ID="0.2"
+VERSION="0.2 (Alpha)"
+VERSION_CODENAME=Alpha
 HOME_URL="https://github.com/Asterlusnce/AstralOS"
