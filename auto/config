@@ -14,10 +14,10 @@ lb config noauto \
     --initsystem systemd \
     --bootloaders "syslinux grub-efi" \
     --chroot-filesystem squashfs \
-    --image-name asterlastOS-0.2-amd64 \
+    --image-name asterlastOS-0.3-amd64 \
     --iso-application "AsterlastOS Live" \
     --iso-preparer "AsterlastOS Build System" \
     --iso-publisher "AstralOS Project" \
-    --iso-volume "ASTERLASTOS_0.2_AMD64" \
+    --iso-volume "ASTERLASTOS_0.3_AMD64" \
     --net-tarball false \
     --checksums sha256
