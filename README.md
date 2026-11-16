@@ -15,3 +15,6 @@ A Debian-based Linux distribution
 - Still on Beta Version
 
 0.4 will be released soon!
+Plans:
+- ISO Xfce version
+- WM Version (Niri) 
