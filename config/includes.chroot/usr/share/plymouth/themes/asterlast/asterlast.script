@@ -1,6 +1,7 @@
 # Load images
 wallpaper = Image("background.png");
 logo = Image("logo.png");
+spinner = Image("spinner.png");
 
 # Get screen dimensions
 screen_width = Window.GetWidth();
@@ -15,7 +16,6 @@ scale_x = screen_width / wallpaper_width;
 scale_y = screen_height / wallpaper_height;
 
 scale = scale_x;
-
 if (scale_y > scale_x) {
     scale = scale_y;
 }
@@ -23,12 +23,10 @@ if (scale_y > scale_x) {
 # Resize wallpaper
 scaled_width = wallpaper_width * scale;
 scaled_height = wallpaper_height * scale;
-
 wallpaper = wallpaper.Scale(scaled_width, scaled_height);
 
 # Create wallpaper sprite
 wallpaper_sprite = Sprite(wallpaper);
-
 wallpaper_sprite.SetPosition(
     (screen_width - scaled_width) / 2,
     (screen_height - scaled_height) / 2,
@@ -45,11 +43,34 @@ target_logo_height = logo_height * target_logo_width / logo_width;
 # Resize logo
 logo = logo.Scale(target_logo_width, target_logo_height);
 
-# Create logo sprite
-logo_sprite = Sprite(logo);
+# Create logo sprite (dinaikkan sedikit biar posisi spinner di bawahnya simetris)
+logo_x = (screen_width - target_logo_width) / 2;
+logo_y = (screen_height - target_logo_height) / 2 - (screen_height * 0.04);
 
-logo_sprite.SetPosition(
-    (screen_width - target_logo_width) / 2,
-    (screen_height - target_logo_height) / 2,
-    100
-);
+logo_sprite = Sprite(logo);
+logo_sprite.SetPosition(logo_x, logo_y, 100);
+
+# --- SPINNER SETUP ---
+spinner_size = screen_width * 0.03;
+if (spinner_size < 32) {
+    spinner_size = 32;
+}
+spinner = spinner.Scale(spinner_size, spinner_size);
+
+spinner_sprite = Sprite(spinner);
+spinner_x = (screen_width - spinner_size) / 2;
+spinner_y = logo_y + target_logo_height + 40;
+spinner_sprite.SetPosition(spinner_x, spinner_y, 100);
+
+angle = 0;
+
+fun refresh_callback() {
+    angle += 0.12;
+    if (angle >= 6.283185) {
+        angle -= 6.283185;
+    }
+
+    spinner_sprite.SetImage(spinner.Rotate(angle));
+}
+
+Plymouth.SetRefreshFunction(refresh_callback);
