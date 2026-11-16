@@ -1,0 +1,12 @@
+[Unit]
+Description=AsterlastOS First-Boot Installer Cleanup
+After=local-fs.target
+ConditionPathExists=!/run/live/medium
+
+[Service]
+Type=oneshot
+ExecStart=/usr/local/sbin/asterlast-firstboot-cleanup.sh
+RemainAfterExit=no
+
+[Install]
+WantedBy=multi-user.target
