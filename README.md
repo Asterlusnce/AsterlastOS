@@ -12,4 +12,6 @@ A Debian-based Linux distribution
 
 # Caution!
 - I just tried to make my own distro hehe :v
-- Still on Beta Version 
+- Still on Beta Version
+
+0.4 will be released soon!
