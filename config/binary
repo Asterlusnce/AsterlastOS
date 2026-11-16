@@ -77,10 +77,10 @@ LB_ISO_APPLICATION="AsterlastOS Live"
 LB_ISO_PREPARER="AsterlastOS Build System"
 
 # Set iso publisher
-LB_ISO_PUBLISHER="AstralOS Project"
+LB_ISO_PUBLISHER="AsterlastOS Project"
 
 # Set iso volume (max 32 chars)
-LB_ISO_VOLUME="ASTERLASTOS_0.3_AMD64"
+LB_ISO_VOLUME="ASTERLASTOS_0.4_AMD64"
 
 # Set jffs2 eraseblock size
 LB_JFFS2_ERASEBLOCK=""
