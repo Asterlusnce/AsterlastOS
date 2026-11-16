@@ -3,7 +3,7 @@
 set -e
 
 lb config noauto \
-    --distribution trixie \
+    --distribution testing \
     --architecture amd64 \
     --binary-image iso-hybrid \
     --archive-areas "main non-free-firmware" \
@@ -14,10 +14,10 @@ lb config noauto \
     --initsystem systemd \
     --bootloaders "syslinux grub-efi" \
     --chroot-filesystem squashfs \
-    --image-name asterlastOS-0.3-amd64 \
+    --image-name asterlastOS-0.4-amd64 \
     --iso-application "AsterlastOS Live" \
     --iso-preparer "AsterlastOS Build System" \
-    --iso-publisher "AstralOS Project" \
-    --iso-volume "ASTERLASTOS_0.3_AMD64" \
+    --iso-publisher "AsterlastOS Project" \
+    --iso-volume "ASTERLASTOS_0.4_AMD64" \
     --net-tarball false \
     --checksums sha256
