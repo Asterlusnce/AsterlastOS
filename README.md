@@ -23,10 +23,12 @@ Plans:
 - Xfce version
 - WM Version (Niri/Manga)
 - Transferring into Debian sid
+- Winboat
 
 ## Long Plans
 - APT Repository
 - Fedora-like update Debian
 - Friendly for user.
+- College-student friendly. 
 
 
