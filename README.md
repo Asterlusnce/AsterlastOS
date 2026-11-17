@@ -1,5 +1,5 @@
 # AsterlastOS
-A Debian-based Linux distribution
+A Debian-based Linux distribution Project
 
 ## Project Information
 - Name: AsterlastOS
