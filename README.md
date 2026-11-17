@@ -1,11 +1,14 @@
 # AsterlastOS
 A Debian-based Linux distribution Project
 
+## Goals:
+(still thinking)... 
+
 ## Project Information
 - Name: AsterlastOS
 - Version: 0.3
 - Base: Debian 13 Trixie amd64 
-- DE: KDE Plasma (GNOME soon) 
+- DE: KDE Plasma 
 - Installer: Calameres
 # Documentation
 <img width="1294" height="800" alt="image" src="https://github.com/user-attachments/assets/3127850e-b388-4ed5-b374-61989088ef52" />
@@ -16,5 +19,14 @@ A Debian-based Linux distribution Project
 
 0.4 will be released soon!
 Plans:
-- ISO Xfce version
-- WM Version (Niri) 
+- GNOME version
+- Xfce version
+- WM Version (Niri/Manga)
+- Transferring into Debian sid
+
+## Long Plans
+- APT Repository
+- Fedora-like update Debian
+- Friendly for user.
+
+
