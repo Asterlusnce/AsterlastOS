@@ -32,6 +32,6 @@ Plans:
 - College-student friendly. 
 
 ## System Requirements:
-CPU: 1GHz or faster (recommended 2 cores and 2GHz+)
-RAM: 2GB+ 
-DISK: 25GB Minimal
+- CPU: 1GHz or faster (recommended 2 cores and 2GHz+)
+- RAM: 2GB+ 
+- DISK: 25GB Minimal
