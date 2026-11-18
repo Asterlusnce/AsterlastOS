@@ -1,8 +1,8 @@
 # AsterlastOS
-A Debian-based Linux distribution Project
+An Open Source Debian-based Linux distribution Project
 
 ## Goals:
-(still thinking)... 
+Making an easy install for Debian, and making them to try Linux. It's also to re-awake old computers, especially campus ones. From this, we can even learn the Linux, like `ssh` or many other things! This is currently project for education. 
 
 ## Project Information
 - Name: AsterlastOS
