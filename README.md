@@ -11,7 +11,7 @@ A Debian-based Linux distribution Project
 - DE: KDE Plasma 
 - Installer: Calameres
 # Documentation
-<img width="1294" height="800" alt="image" src="https://github.com/user-attachments/assets/3127850e-b388-4ed5-b374-61989088ef52" />
+<img width="1334" height="952" alt="image" src="https://github.com/user-attachments/assets/2228e43d-3eea-40ee-83fc-97599c980422" />
 
 # Caution!
 - I just tried to make my own distro hehe :v
