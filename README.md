@@ -7,7 +7,7 @@ A Debian-based Linux distribution Project
 ## Project Information
 - Name: AsterlastOS
 - Version: 0.4 (Cat)
-- Base: Debian 14 --testing (sid) amd64 
+- Base: Debian Sid amd64 
 - DE: KDE Plasma 
 - Installer: Calameres
 # Documentation
