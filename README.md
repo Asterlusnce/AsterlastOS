@@ -17,13 +17,14 @@ A Debian-based Linux distribution Project
 - I just tried to make my own distro hehe :v
 - Still on Beta Version
 
-0.4 will be released soon!
+0.5 will be released soon!
 Plans:
 - GNOME version
 - Xfce version
 - WM Version (Niri/Mango)
-- Transferring into Debian sid
-- Winboat
+- Winboat (Calamares settings)
+After this all, it'll likely going to be on Stable.. 
+- Calamares DE/WM selection
 
 ## Long Plans
 - APT Repository
