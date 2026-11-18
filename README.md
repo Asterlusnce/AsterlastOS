@@ -21,7 +21,7 @@ A Debian-based Linux distribution Project
 Plans:
 - GNOME version
 - Xfce version
-- WM Version (Niri/Manga)
+- WM Version (Niri/Mango)
 - Transferring into Debian sid
 - Winboat
 
