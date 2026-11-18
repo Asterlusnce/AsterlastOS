@@ -6,8 +6,8 @@ A Debian-based Linux distribution Project
 
 ## Project Information
 - Name: AsterlastOS
-- Version: 0.3
-- Base: Debian 13 Trixie amd64 
+- Version: 0.4 (Cat)
+- Base: Debian 14 --testing (sid) amd64 
 - DE: KDE Plasma 
 - Installer: Calameres
 # Documentation
@@ -33,5 +33,5 @@ Plans:
 
 ## System Requirements:
 - CPU: 1GHz or faster (recommended 2 cores and 2GHz+)
-- RAM: 2GB+ 
-- DISK: 25GB Minimal
+- RAM: 2GB+ (KDE Plasma)
+- DISK: 20GB Minimal
