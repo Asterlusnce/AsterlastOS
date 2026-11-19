@@ -1,0 +1,11 @@
+--2026-11-19 13:23:37--  http://deb.debian.org/debian//dists/sid/non-free-firmware/Contents-all.gz
+Resolving deb.debian.org (deb.debian.org)... 151.101.130.132, 151.101.194.132, 151.101.66.132, ...
+Connecting to deb.debian.org (deb.debian.org)|151.101.130.132|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 46703 (46K) [application/x-gzip]
+Saving to: ‘cache/contents.chroot/sid/non-free-firmware/contents-all.gz’
+
+     0K .......... .......... .......... .......... .....     100%  457K=0.1s
+
+2026-11-19 13:23:37 (457 KB/s) - ‘cache/contents.chroot/sid/non-free-firmware/contents-all.gz’ saved [46703/46703]
+

@@ -22,4 +22,6 @@ lb config noauto \
     --iso-publisher "AsterlastOS Project" \
     --iso-volume "ASTERLASTOS_0.4.1_AMD64" \
     --net-tarball false \
-    --checksums sha256
+    --checksums sha256 \
+    --debootstrap-options "--include=ca-certificates,gnupg" \
+    "${@}"

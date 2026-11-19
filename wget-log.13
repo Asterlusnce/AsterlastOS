@@ -1,0 +1,11 @@
+--2026-11-19 13:18:50--  http://deb.debian.org/debian//dists/sid/non-free-firmware/Contents-amd64.gz
+Resolving deb.debian.org (deb.debian.org)... 151.101.66.132, 151.101.2.132, 151.101.194.132, ...
+Connecting to deb.debian.org (deb.debian.org)|151.101.66.132|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 1423 (1.4K) [application/x-gzip]
+Saving to: ‘cache/contents.chroot/sid/non-free-firmware/contents-amd64.gz’
+
+     0K .                                                     100%  180M=0s
+
+2026-11-19 13:18:50 (180 MB/s) - ‘cache/contents.chroot/sid/non-free-firmware/contents-amd64.gz’ saved [1423/1423]
+
