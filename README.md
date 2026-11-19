@@ -22,14 +22,7 @@ Making an easy install for Debian, and making them to try Linux. It's also to re
 - DE: KDE Plasma 
 - Installer: Calameres
 # Documentation
-<div align="center">
-  <a href="https://www.youtube.com/watch?v=lSb0xJ6_pYs">
-    <img src="https://img.youtube.com/vi/lSb0xJ6_pYs/maxresdefault.jpg"
-         alt="AsterlastOS Demo"
-         width="720">
-  </a>
-  <p>▶ Watch the AsterlastOS demonstration</p>
-</div>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/lSb0xJ6_pYs?si=YISXDFSTU803zmsD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 <img width="1334" height="952" alt="image" src="https://github.com/user-attachments/assets/2228e43d-3eea-40ee-83fc-97599c980422" />
 
