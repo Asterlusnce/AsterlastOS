@@ -22,7 +22,8 @@ Making an easy install for Debian, and making them to try Linux. It's also to re
 - DE: KDE Plasma 
 - Installer: Calameres
 # Documentation
-[![Watch the video](https://youtube.com)](https://www.youtube.com/watch?v=lSb0xJ6_pYs)
+[![Watch the demo](https://img.youtube.com/vi/lSb0xJ6_pYs/0.jpg)](https://www.youtube.com/watch?v=lSb0xJ6_pYs)
+
 <img width="1334" height="952" alt="image" src="https://github.com/user-attachments/assets/2228e43d-3eea-40ee-83fc-97599c980422" />
 
 # Caution!
