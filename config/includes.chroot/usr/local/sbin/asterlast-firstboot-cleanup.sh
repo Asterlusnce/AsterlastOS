@@ -10,6 +10,7 @@ fi
 export DEBIAN_FRONTEND=noninteractive
 apt-get purge -y \
     calamares \
+    firefox \
     calamares-settings-debian \
     live-boot \
     live-boot-doc \
