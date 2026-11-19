@@ -17,7 +17,7 @@ Making an easy install for Debian, and making them to try Linux. It's also to re
 
 ## Project Information
 - Name: AsterlastOS
-- Version: 0.4 (Cat)
+- Version: 0.4.1 (Cat)
 - Base: Debian Sid amd64 
 - DE: KDE Plasma 
 - Installer: Calameres
