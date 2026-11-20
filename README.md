@@ -6,9 +6,10 @@ Making an easy install for Debian, and making them to try Linux. It's also to re
 
 ## Advantage using AsterlastOS than Windows
 - Longer Battery Life
-- Minimal Ram usage
+- Minimal RAM usage
 - No bloatware
 - Less distracting for College student!
+- Make Low-End Devices alive again!
 - OPEN SOURCE BABY!
 
 ## Disadvantage using AsterlastOS than Windows
