@@ -7,6 +7,5 @@ curl
 wget
 htop
 nano
-vim
 neovim
 systemd-zram-generator
